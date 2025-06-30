@@ -1,0 +1,10 @@
+{{ contract_number }}
+{{ city }}
+{{ date }}
+{{ company_partner }}
+{{ fio_partner }}
+{{ company_my }}
+{{ fio_my }}
+{{ system }}
+{{ object }}
+{{ address_object }}

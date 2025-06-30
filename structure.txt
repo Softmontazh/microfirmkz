@@ -1,0 +1,31 @@
+microfirmkz-bot/
+├── api/
+│   ├── routes/
+│   │   └── contracts.py
+│   └── main.py             # FastAPI
+├── db/
+│   ├── models.py
+│   └── database.py
+├── docgen/                 # Модуль генерации документов
+│   ├── __init__.py
+│   └── builder.py          # Модуль генерации
+├── generated/              # Сгенерированные .docx
+│   └── *.*
+├── templates/              # Шаблоны
+│   ├── acts/
+│   │   ├── avr.docx        # Акт выполненных работ
+│   │   └── defect.docx     # Дефектный акт
+│   ├── contracts/          # Договора
+│   │   ├── framework_make_is.docx      # Рамочный изготовление ИС
+│   │   ├── service_aps_onetime.docx    # Обслуживание АПС разовый
+│   │   ├── service_aps_year.docx       # Обслуживание АПС на год
+│   │   ├── service_vn_dp_year.docx     # Обслуживание ВН и домофон на год
+│   │   └── sup_constract.docx          # Поддержка строительного участка
+│   └── offers/                         # Предложения
+│       └── commercial offers.docx      # Коммерческое
+├── venv/                   # окружение
+├── .env
+├── .gitignore
+├── main.py                 # FastAPI
+├── requirements.txt        # Зависимости
+└── README.md
