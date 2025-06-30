@@ -1,10 +1,10 @@
-{{ contract_number }}
-{{ city }}
-{{ date }}
-{{ company_partner }}
-{{ fio_partner }}
-{{ company_my }}
-{{ fio_my }}
-{{ system }}
-{{ object }}
-{{ address_object }}
+{{contract_number}}
+{{city}}
+{{date}}
+{{firm_partner}}
+{{fio_partner}}
+{{firm_my}}
+{{fio_my}}
+{{system}}
+{{object}}
+{{address_object}}
